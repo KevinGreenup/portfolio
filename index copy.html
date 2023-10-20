@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kevin Greenup - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="content">
+        <h1 class="main-title">Kevin Greenup</h1>
+
+        <p class="jobtitle">Web Developer</p>
+        <img
+          src="images/kevpic copy.jpeg"
+          alt="A picture of Kevin and his dog."
+          class="profile-pic"
+        />
+        <section id="contact">
+          <div class="content">
+            <h2>Connect With Me</h2>
+
+            <ul class="social-links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/kevin-greenup-96296063/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/KevinGreenup" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <!-- Add more social media links as needed -->
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Kevin Greenup. After a decade of teaching English in Spain,
+          I've returned to England to pursue my passion for computer
+          programming. Join me on this exciting new adventure where I combine my
+          teaching experience with my love for coding to create innovative
+          solutions and embrace the ever-evolving world of technology.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="content">
+        <h2>Portfolio</h2>
+        <div class="project">
+          <img
+            src="images/brands-people-Ax8IA8GAjVg-unsplash.jpg"
+            alt="Project 1 picture"
+          />
+          <h3>Project Title 1</h3>
+          <p>Project description.</p>
+        </div>
+        <div class="project">
+          <img
+            src="images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+            alt="Project 2 picture"
+          />
+          <h3>Project Title 2</h3>
+          <p>Project description.</p>
+        </div>
+        <div class="project">
+          <img
+            src="images/priscilla-du-preez-OEdkPaxYMXU-unsplash.jpg"
+            alt="Project 3 picture"
+          />
+          <h3>Project Title 3</h3>
+          <p>Project description.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <form action="#" method="post" class="contact-me">
+          <label for="name">Name:</label>
+
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
